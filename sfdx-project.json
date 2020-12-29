@@ -4,8 +4,8 @@
             "path": "force-app",
             "default": true,
             "package": "Horoscope",
-            "versionName": "ver 1.0",
-            "versionNumber": "1.0.0.NEXT"
+            "versionName": "ver 1.1",
+            "versionNumber": "1.1.0.NEXT"
         }
     ],
     "namespace": "zankoav_hp",
@@ -13,6 +13,7 @@
     "sourceApiVersion": "49.0",
     "packageAliases": {
         "Horoscope": "0Ho6F000000k9ixSAA",
-        "Horoscope@1.0.0-1": "04t6F000000cgvqQAA"
+        "Horoscope@1.0.0-1": "04t6F000000cgvqQAA",
+        "Horoscope@1.1.0-1": "04t6F000000chCxQAI"
     }
 }

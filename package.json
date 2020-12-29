@@ -10,10 +10,10 @@
     "FORCE.ORG.CREATE.SCRATCH": "sfdx force:org:create -f config/project-scratch-def.json -s -d 2 -a MyScratchOrg",
     "FORCE.PACKAGE.CREATE": "sfdx force:package:create --name Horoscope --packagetype Managed -v zankoav --path force-app",
     "FORCE.PACKAGE.VERSION.CREATE": "sfdx force:package:version:create -p DocumentRest -d force-app -k 1111 --wait 10 -v zankoav",
-    "FORCE.MANAGED.PACKAGE.VERSION.CREATE": "sfdx force:package:version:create -p Horoscope --wait 10 -v zankoav -x -c",
-    "FORCE.PACKAGE.INSTALL": "sfdx force:package:install -w 10 -u MyScratchOrg -p 04t6F000000cgvqQAA",
-    "FORCE.PACKAGE.REPORT": "sfdx force:package:version:report -p 04t6F000000cgvqQAA",
-    "FORCE.PACKAGE.PROMOTE": "sfdx force:package:version:promote -p 04t6F000000cgvqQAA"
+    "FORCE.MANAGED.PACKAGE.VERSION.CREATE": "sfdx force:package:version:create -p Horoscope --wait 10 -v zankoav@gmail.com -x -c",
+    "FORCE.PACKAGE.INSTALL": "sfdx force:package:install -w 10 -u MyScratchOrg -p 04t6F000000chCxQAI",
+    "FORCE.PACKAGE.REPORT": "sfdx force:package:version:report -p 04t6F000000chCxQAI",
+    "FORCE.PACKAGE.PROMOTE": "sfdx force:package:version:promote -p 04t6F000000chCxQAI"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^0.7.0",
